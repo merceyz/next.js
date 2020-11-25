@@ -1,7 +1,7 @@
 import findUp from 'next/dist/compiled/find-up'
 import { promises } from 'fs'
 import path from 'path'
-import resolve from 'next/dist/compiled/resolve/index.js'
+import resolve from 'resolve'
 import { execOnce } from '../../next-server/lib/utils'
 
 const { version } = require('next/package.json')
