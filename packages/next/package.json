@@ -41,9 +41,7 @@
     "types/index.d.ts",
     "types/global.d.ts"
   ],
-  "bin": {
-    "next": "./dist/bin/next"
-  },
+  "bin": "./dist/bin/next",
   "scripts": {
     "dev": "taskr",
     "release": "taskr release",
@@ -119,13 +117,13 @@
     "sass": "^1.3.0"
   },
   "peerDependenciesMeta": {
+    "fibers": {
+      "optional": true
+    },
     "node-sass": {
       "optional": true
     },
     "sass": {
-      "optional": true
-    },
-    "fibers": {
       "optional": true
     }
   },

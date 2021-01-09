@@ -37,3 +37,10 @@ test-timings.json
 # Vercel
 .vercel
 .now
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

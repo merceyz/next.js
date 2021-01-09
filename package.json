@@ -2,7 +2,8 @@
   "name": "nextjs-project",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "examples/*"
   ],
   "scripts": {
     "lerna": "lerna",
